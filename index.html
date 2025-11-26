@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1441, initial-scale=1.0">
+    <title>로딩 화면</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <div id="loading-screen">
+        
+        <div class="center-content">
+            <div class="brand-logo-container">
+                
+                <img src="https://i.imgur.com/kLmhry7.jpg" alt="브랜드 로고" class="brand-logo-img">
+                
+                <img src="https://i.imgur.com/EfcKeaf.jpg" alt="추가 이미지" class="overlay-img">
+            </div>
+        </div>
+
+        <div class="progress-bar-container">
+            <div class="progress-bar-fill"></div>
+        </div>
+        
+        <p class="loading-message">데이터를 반영한 다음 페이지를 펼치는 중입니다. 잠시만 기다려주세요.</p>
+        
+    </div>
+
+    <div id="main-content" style="display: none;">
+        <h2 style="text-align: center; padding-top: 300px;">메인 콘텐츠 영역</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
